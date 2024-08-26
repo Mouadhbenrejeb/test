@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.lf {
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo img {
+    width: 100px;
+   
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    font-size: small;
+}
+
+.inputg {
+    margin-bottom: 20px;
+}
+
+.inputg label {
+    display: flex;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.inputg input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    text-align: end  ;
+    margin-top: 20px;
+    
+}
+
+.forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+.sign-up {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign-up a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.bb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007BFF;
+    padding: 40px;
+    
+
+}
+
+.bb img {
+    width: 300px;
+    display: block;
+   background-color: #007BFF;
+   max-width: 100%;
+    max-height: 100%;
+}

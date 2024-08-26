@@ -1,0 +1,25 @@
+img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container{
+display: flex;
+
+
+}
+.flStart{
+    justify-content: flex-start;
+}
+.FlEnd{
+    justify-content: flex-end;
+}
+.flcenter{
+    justify-content: center;
+}
+.flSpace{
+justify-content: space-between;
+
+}
